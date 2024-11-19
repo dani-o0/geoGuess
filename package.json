@@ -1,0 +1,31 @@
+{
+  "name": "geoguess",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-firebase/firestore": "^21.3.0",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "eas": "^0.1.0",
+    "eas-cli": "^13.3.0",
+    "expo": "~51.0.28",
+    "expo-linear-gradient": "~13.0.2",
+    "expo-status-bar": "~1.12.1",
+    "firebase": "^11.0.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-maps": "^1.14.0",
+    "react-navigation": "^5.0.0",
+    "expo-updates": "~0.25.27"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
